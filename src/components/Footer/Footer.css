@@ -1,0 +1,60 @@
+.footer{
+  color: black;
+  background: linear-gradient(267deg, #9225da 0.60%, #25da52  40% );
+  margin-top: 60px;
+  padding: 40px 30px 20px 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.footer-content{
+  width: 80%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr ;
+  gap:10px;
+}
+.footer-scial-icons img {
+  width: 30px;
+  padding: 5px 5px ;
+  border-radius: 50%;
+  cursor: pointer;
+
+}
+.footer-content-left img{
+  width: 60px;
+}
+.footer-content-left, .footer-content-right, .footer-content-center {
+
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 20x;
+  cursor: pointer;
+}
+.footer-content-left li, .footer-content-right li, .footer-content-center li {
+
+ list-style: none;
+ margin-bottom: 10px;
+ cursor: pointer;
+}
+.footer-content-right h2, .footer-content-center h2 {
+color: white;
+cursor: pointer;
+}
+.footer hr{
+  width: 100%;
+  height:4px 0 ;
+  background-color: red;
+  
+}
+@media (max-width:750px) {
+  .footer-content{
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+  }
+  .footer-content-right{
+    text-align: center;
+  }
+}
